@@ -21,9 +21,9 @@ export function Sidebar() {
 
       <nav className="space-y-0.5">
         <NavItem title="Home" icon={Home} />
-        <Accordion />
+        {/* <Accordion /> */}
 
-        <NavItem title="Cadastro" icon={User} href="/dados" />
+        <NavItem title="Cadastro " icon={User} href="/dados" />
         <NavItem title="Meus Dados" icon={UserCircle} />
       </nav>
       <div className="mt-auto flex flex-col gap-6">
